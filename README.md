@@ -1,4 +1,4 @@
-# Historical Figure Video Draft
+# Historical Figure Video Draft（历史人物的一生短视频自动化生成和剪辑）
 
 输入一个中国历史人物名字，自动生成：
 
@@ -53,6 +53,14 @@ node scripts/run_historical_figure_video_draft.mjs input.json
 不要把 API Key 写入 `input.json`，也不要提交到 GitHub。
 
 输入文件可以参考 [examples/input.example.json](examples/input.example.json)。
+
+## 最终效果示例
+
+这里提供一个朱元璋历史人物短视频成片示例：
+
+[下载或打开朱元璋最终效果示例](examples/zhuyuangzhang-final-example.mp4)
+
+示例规格：约 35 秒，720x1280 竖版 9:16。实际生成结果会根据提示词和模型输出有所不同。
 
 ## 默认参数
 

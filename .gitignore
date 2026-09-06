@@ -4,6 +4,7 @@
 *.pem
 input.local.json
 *.mp4
+!examples/zhuyuangzhang-final-example.mp4
 *.png
 !docs/jianying-helper-create-draft.png
 *.jpg
