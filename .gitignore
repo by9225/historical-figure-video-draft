@@ -7,6 +7,7 @@ input.local.json
 !examples/zhuyuangzhang-final-example.mp4
 *.png
 !docs/jianying-helper-create-draft.png
+!docs/zhuyuangzhang-final-example.mp4
 *.jpg
 *.jpeg
 *-完整流程/

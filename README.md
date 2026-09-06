@@ -58,12 +58,9 @@ node scripts/run_historical_figure_video_draft.mjs input.json
 
 这里提供一个朱元璋历史人物短视频成片示例：
 
-<video controls width="360" preload="metadata">
-  <source src="https://raw.githubusercontent.com/by9225/historical-figure-video-draft/main/examples/zhuyuangzhang-final-example.mp4" type="video/mp4">
-  你的浏览器不支持直接播放，请[打开视频文件](examples/zhuyuangzhang-final-example.mp4)。
-</video>
+[在线直接播放朱元璋最终效果示例](https://by9225.github.io/historical-figure-video-draft/)
 
-也可以[打开视频文件](examples/zhuyuangzhang-final-example.mp4)查看。
+在线播放页需要先按项目说明开启 GitHub Pages。也可以[打开视频文件](examples/zhuyuangzhang-final-example.mp4)查看。
 
 示例规格：约 35 秒，720x1280 竖版 9:16。实际生成结果会根据提示词和模型输出有所不同。
 
