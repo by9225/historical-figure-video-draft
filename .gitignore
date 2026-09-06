@@ -1,0 +1,13 @@
+.DS_Store
+.env
+*.key
+*.pem
+input.local.json
+*.mp4
+*.png
+*.jpg
+*.jpeg
+*-完整流程/
+*完整流程/
+output/
+outputs/

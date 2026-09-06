@@ -1,0 +1,7 @@
+interface:
+  display_name: "Historical Figure Video Draft"
+  short_description: "Generate complete historical figure video drafts"
+  default_prompt: "Use $historical-figure-video-draft to create a complete historical figure video draft from one name."
+
+policy:
+  allow_implicit_invocation: true

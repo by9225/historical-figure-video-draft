@@ -1,0 +1,13 @@
+{
+  "name": "historical-figure-video-draft",
+  "version": "1.0.0",
+  "description": "Generate historical figure scripts, images, videos, and Jianying drafts from one name.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "check": "node --check scripts/run_historical_figure_video_draft.mjs"
+  }
+}
