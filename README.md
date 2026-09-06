@@ -1,4 +1,4 @@
-# Historical Figure Video Draft
+# Historical Figure Video Draft（历史人物的一生短视频自动化生成和剪辑）
 
 输入一个中国历史人物名字，自动生成：
 
