@@ -15,6 +15,7 @@ Always complete these stages in order:
 2. Generate 8 images in parallel and download them.
 3. Generate 7 first-frame/last-frame videos in parallel and download them.
 4. Create and save the Jianying/CapCut draft.
+5. Ask the user to open the Jianying Assistant and click “创建剪映草稿” to import the draft into Jianying for further editing.
 
 Create a new output folder named `<人物名>完整流程` and keep all intermediate files there.
 
@@ -56,6 +57,10 @@ The input JSON must be UTF-8 and contain `person`, `title`, `experiences` (8 ite
 The script performs image generation/downloads in parallel, video task creation/polling/downloads in parallel, then calls:
 
 `create_draft` → `add_videos` → `add_captions` for title → `add_captions` for subtitles → `add_audios` → `save_draft`
+
+After `save_draft` returns the draft link, the user must use the Jianying Assistant desktop client to create/import the draft. The assistant must be downloaded first from [www.jcaigc.cn](http://www.jcaigc.cn). In the assistant, open or paste the draft link and click “创建剪映草稿”; this step puts the generated materials into Jianying, where the user can continue editing. API documentation is available at [docs.jcaigc.cn](https://docs.jcaigc.cn/).
+
+![Jianying Assistant create-draft button](docs/jianying-helper-create-draft.png)
 
 Video timeline segments are 0–5s, 5–10s, ..., 30–35s. Audio covers the full 35 seconds.
 

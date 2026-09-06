@@ -5,6 +5,7 @@
 input.local.json
 *.mp4
 *.png
+!docs/jianying-helper-create-draft.png
 *.jpg
 *.jpeg
 *-完整流程/
